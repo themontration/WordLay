@@ -1,5 +1,3 @@
-export const config = { runtime: "edge" };
-
-export default function handler(req) {
-  return new Response("hello from vercel edge");
+export default function handler(req, res) {
+  res.status(200).send("hello");
 }
