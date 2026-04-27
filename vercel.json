@@ -1,6 +1,7 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
+    { "source": "/(.*)", "destination": "/api/test" },
+    { "source": "/xhttp/(.*)", "destination": "/api/index" }
   ]
 }
